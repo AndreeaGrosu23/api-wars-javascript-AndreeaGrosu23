@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{#    <style type="text/css">#}
+{#        .hide { display:none; }#}
+{#    </style>#}
+{% endblock %}
+
+{% block content %}
+    <br>
+    <h1>Star Wars universe planets</h1>
+    <br>
+    <button type="button" id="previous" class="btn btn-primary">Previous</button>
+    <button type="button" id="next" class="btn btn-primary">Next</button>
+    <br>
+    <br>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Diameter</th>
+                <th>Climate</th>
+                <th>Terrain</th>
+                <th>Surface Water Percentage</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+
+        </tbody>
+    </table>
+{% endblock %}
